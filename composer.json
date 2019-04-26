@@ -1,0 +1,32 @@
+{
+  "name": "dnyg/php7-sie",
+  "version": "3.3.3.3",
+  "description": "PHP 7 version of Neam's PHP implementation https://github.com/neam/php-sie",
+  "keywords": [
+    "php",
+    "php7",
+    "sie"
+  ],
+  "homepage": "https://github.com/DanygNet/php7-sie",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Nygaard",
+      "email": "daniel@danyg.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "sie\\": "src/sie/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "ext-iconv": "*",
+    "strscan/strscan": "~1.0.3"
+  },
+  "require-dev": {
+    "codeception/codeception": "~2.2.4"
+  }
+}
